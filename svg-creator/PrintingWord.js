@@ -12,32 +12,27 @@ class PrintingWord extends Component {
     },
     x: 0,
     y: 0,
-    width: 410,
-    height: 410,
-    color: 'black'
+    width: 2050,
+    height: 2050,
+    color: 'black',
+    progress: 0
   }
 
   render() {
-    let { x, y, width, height, color } = this.props
+    let { x, y, width, height, progress, color } = this.props
     const { word } = this.props.data
 
     return (
       <svg
-        width={width * word.length}
+        width={width}
         height={height}
-        viewBox={`0 0 ${2050 * word.length} 2050`}
+        viewBox={`0 0 2050 2050`}
         version={1.1}
       >
         <g x={x} y={y}>{
           map(
-            (progress) =>
-              <g key={progress} transform={`translate(${(progress - 1) * 2050})`}>{
-                map(
-                  (i) => <Stroke key={i} data={word[i]} color={color} />,
-                  range(0, progress)
-                )
-              }</g>,
-            range(1, word.length + 1)
+            (i) => <Stroke key={i} data={word[i]} color={color} />,
+            range(0, progress)
           )
         }</g>
       </svg>

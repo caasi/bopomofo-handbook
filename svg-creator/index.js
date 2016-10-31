@@ -5,17 +5,11 @@ import path from 'path'
 import punycode from 'punycode'
 import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
-import { map, compose, replace } from 'ramda'
+import { map, compose, replace, range } from 'ramda'
 import { computeLength } from 'react-zh-stroker/lib/data'
 import PrintingWord from './PrintingWord'
 
 
-
-const show = (...args) => console.log(...args) || args[0]
-
-// toFilepath :: Int -> String
-const toFilepath = (codepoint) =>
-  path.resolve(__dirname, 'json', `${codepoint.toString(16)}.json`)
 
 // readStroke :: String -> Promise Stroke
 const readStroke = (filepath) =>
@@ -23,39 +17,40 @@ const readStroke = (filepath) =>
     .then(JSON.parse)
     .then(computeLength)
 
-// toSVG :: Stroke -> ReactInstance
-const toSVG = (stroke) =>
-  <PrintingWord width={410} height={410} data={stroke} />
-
-// patchSVGString :: String -> String
-const patchSVGString = replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" ')
-
-// write :: Int -> String -> Promise ()
-const write = (codepoint) => async (svgString) => {
-  const filepath = path.resolve(__dirname, 'svg', `${codepoint.toString(16)}.svg`)
-  await fs.writeFile(filepath, svgString, { encoding: 'utf8' })
-  console.log(`${filepath} written`)
-  return
-}
 
 
-
-// main :: ()
+// main :: () => Promise ()
 const main = () => {
   const [,, ...words] = process.argv
   const codes = punycode.ucs2.decode(words.join(''))
 
-  map(
-    (codepoint) => {
-      compose(readStroke, toFilepath)(codepoint)
-        .then(toSVG)
-        .then(renderToStaticMarkup)
-        .then(patchSVGString)
-        .then(write(codepoint))
-        .catch((e) => console.error(e))
+  const ps = map(
+    async (codepoint) => {
+      const filepath =
+        path.resolve(__dirname, 'json', `${codepoint.toString(16)}.json`)
+      const stroke = await readStroke(filepath)
+      const ps = map(
+        async (index) => {
+          const comp = <PrintingWord data={stroke} progress={index} />
+          const markup = renderToStaticMarkup(comp)
+          const result =
+            replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" ', markup)
+          const filepath =
+            path.resolve(__dirname, 'svg', codepoint.toString(16), `${index}.svg`)
+          await fs.outputFile(filepath, result, { encoding: 'utf8' })
+          console.log(`${filepath} written`)
+          return
+        },
+        range(1, stroke.word.length + 1)
+      )
+
+      return Promise.all(ps)
     },
     codes
   )
+
+  return Promise.all(ps)
 }
 
 main()
+  .catch((e) => console.error(e))
