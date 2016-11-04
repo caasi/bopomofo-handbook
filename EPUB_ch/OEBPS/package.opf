@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="bookid" version="3.0">  
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
+	<dc:title>國語注音符號手冊</dc:title>
+	<dc:creator>教育部</dc:creator>
+	<dc:publisher>教育部</dc:publisher>
+	<dc:date>2016-12-31T12:00:00Z</dc:date>
+    <meta property="dcterms:modified">2016-12-31T12:00:00Z</meta>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:spread">auto</meta>
+    <meta property="rendition:orientation">auto</meta>
+	<meta property="ibooks:specified-fonts">true</meta>
+	<dc:identifier id="bookid">9570273240</dc:identifier>
+	<dc:contributor>WANDERER Digital Publishing</dc:contributor>
+    <dc:language>zh-TW</dc:language>
+    <meta name="cover" content="cover"/>
+</metadata>
+<manifest>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <!--CSS-->
+    <item id="style" href="style.css" media-type="text/css" />
+    <!--xhtmls-->
+    <item id="coverpage" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg" />
+    <item id="p001" href="001.xhtml" media-type="application/xhtml+xml"/>
+    <!--images-->
+    <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+</manifest>  
+<spine page-progression-direction="ltr">
+	<itemref idref="coverpage" properties="page-spread-right"/>
+    <itemref idref="p001" properties="page-spread-left"/>
+</spine>
+</package>
