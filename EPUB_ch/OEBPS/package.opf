@@ -22,11 +22,104 @@
     <!--xhtmls-->
     <item id="coverpage" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg" />
     <item id="p001" href="001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p002" href="002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p003" href="003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p004" href="004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p005" href="005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p006" href="006.xhtml" media-type="application/xhtml+xml"/>
+
     <!--images-->
     <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="i001" href="images/001.png" media-type="image/png"/>
+    <item id="m01" href="images/01.png" media-type="image/png"/>
+    <item id="m02" href="images/02.png" media-type="image/png"/>
+    <item id="m02_1" href="images/02_1.png" media-type="image/png"/>
+    <item id="m03" href="images/03.png" media-type="image/png"/>
+    <item id="m03_1" href="images/03_1.png" media-type="image/png"/>
+    <item id="m04" href="images/04.png" media-type="image/png"/>
+    <item id="m04_1" href="images/04_1.png" media-type="image/png"/>
+    <item id="m05" href="images/05.png" media-type="image/png"/>
+    <item id="m05_1" href="images/05_1.png" media-type="image/png"/>
+    <item id="m06" href="images/06.png" media-type="image/png"/>
+    <item id="m06_1" href="images/06_1.png" media-type="image/png"/>
+    <item id="m06_2" href="images/06_2.png" media-type="image/png"/>
+    <item id="m07" href="images/07.png" media-type="image/png"/>
+    <item id="m08" href="images/08.png" media-type="image/png"/>
+    <item id="m08_1" href="images/08_1.png" media-type="image/png"/>
+    <item id="m09" href="images/09.png" media-type="image/png"/>
+    <item id="m09_1" href="images/09_1.png" media-type="image/png"/>
+    <item id="m10" href="images/10.png" media-type="image/png"/>
+    <item id="m10_1" href="images/10_1.png" media-type="image/png"/>
+    <item id="m11" href="images/11.png" media-type="image/png"/>
+    <item id="m11_1" href="images/11_1.png" media-type="image/png"/>
+    <item id="m12" href="images/12.png" media-type="image/png"/>
+    <item id="m12_1" href="images/12_1.png" media-type="image/png"/>
+
+    <item id="m13" href="images/13.png" media-type="image/png"/>
+    <item id="m14" href="images/14.png" media-type="image/png"/>
+    <item id="m14_1" href="images/14_1.png" media-type="image/png"/>
+    <item id="m15" href="images/15.png" media-type="image/png"/>
+    <item id="m15_1" href="images/15_1.png" media-type="image/png"/>
+    <item id="m15_2" href="images/15_2.png" media-type="image/png"/>
+    <item id="m15_3" href="images/15_3.png" media-type="image/png"/>
+    <item id="m16" href="images/16.png" media-type="image/png"/>
+    <item id="m16_1" href="images/16_1.png" media-type="image/png"/>
+    <item id="m16_2" href="images/16_2.png" media-type="image/png"/>
+    <item id="m17" href="images/17.png" media-type="image/png"/>
+    <item id="m17_1" href="images/17_1.png" media-type="image/png"/>
+    <item id="m17_2" href="images/17_2.png" media-type="image/png"/>
+    <item id="m18" href="images/18.png" media-type="image/png"/>
+    <item id="m18_1" href="images/18_1.png" media-type="image/png"/>
+    <item id="m18_2" href="images/18_2.png" media-type="image/png"/>
+    <item id="m18_3" href="images/18_3.png" media-type="image/png"/>
+    <item id="m19" href="images/19.png" media-type="image/png"/>
+    <item id="m19_1" href="images/19_1.png" media-type="image/png"/>
+    <item id="m20" href="images/20.png" media-type="image/png"/>
+    <item id="m20_1" href="images/20_1.png" media-type="image/png"/>
+    <item id="m21" href="images/21.png" media-type="image/png"/>
+    <item id="m21_1" href="images/21_1.png" media-type="image/png"/>
+    <item id="m22" href="images/22.png" media-type="image/png"/>
+    <item id="m22_1" href="images/22_1.png" media-type="image/png"/>
+    <item id="m22_2" href="images/22_2.png" media-type="image/png"/>
+    <item id="m23" href="images/23.png" media-type="image/png"/>
+    <item id="m23_1" href="images/23_1.png" media-type="image/png"/>
+    <item id="m24" href="images/24.png" media-type="image/png"/>
+    <item id="m24_1" href="images/24_1.png" media-type="image/png"/>
+    <item id="m25" href="images/25.png" media-type="image/png"/>
+    <item id="m25_1" href="images/25_1.png" media-type="image/png"/>
+    <item id="m25_2" href="images/25_2.png" media-type="image/png"/>
+    <item id="m26" href="images/26.png" media-type="image/png"/>
+    <item id="m26_1" href="images/26_1.png" media-type="image/png"/>
+    <item id="m26_2" href="images/26_2.png" media-type="image/png"/>
+    <item id="m27" href="images/27.png" media-type="image/png"/>
+    <item id="m28" href="images/28.png" media-type="image/png"/>
+    <item id="m28_1" href="images/28_1.png" media-type="image/png"/>
+    <item id="m28_2" href="images/28_2.png" media-type="image/png"/>
+    <item id="m29" href="images/29.png" media-type="image/png"/>
+    <item id="m29_1" href="images/29_1.png" media-type="image/png"/>
+    <item id="m30" href="images/30.png" media-type="image/png"/>
+    <item id="m30_1" href="images/30_1.png" media-type="image/png"/>
+    <item id="m31" href="images/31.png" media-type="image/png"/>
+    <item id="m32" href="images/32.png" media-type="image/png"/>
+    <item id="m32_1" href="images/32_1.png" media-type="image/png"/>
+    <item id="m32_2" href="images/32_2.png" media-type="image/png"/>
+    <item id="m33" href="images/33.png" media-type="image/png"/>
+    <item id="m34" href="images/34.png" media-type="image/png"/>
+    <item id="m34_1" href="images/34_1.png" media-type="image/png"/>
+    <item id="m35" href="images/35.png" media-type="image/png"/>
+    <item id="m36" href="images/36.png" media-type="image/png"/>
+    <item id="m36_1" href="images/36_1.png" media-type="image/png"/>
+    <item id="m37" href="images/37.png" media-type="image/png"/>
+    <item id="m37_1" href="images/37_1.png" media-type="image/png"/>
+
 </manifest>  
 <spine page-progression-direction="ltr">
 	<itemref idref="coverpage" properties="page-spread-right"/>
     <itemref idref="p001" properties="page-spread-left"/>
+    <itemref idref="p002" properties="page-spread-right"/>
+    <itemref idref="p003" properties="page-spread-left"/>
+    <itemref idref="p004" properties="page-spread-right"/>
+    <itemref idref="p005" properties="page-spread-left"/>
+    <itemref idref="p006" properties="page-spread-right"/>
 </spine>
 </package>

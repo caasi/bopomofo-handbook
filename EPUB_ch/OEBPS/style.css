@@ -9,19 +9,78 @@ body.text {
 	font-family: "KaiTi TC";
 }
 
+h1, h2, h3 {
+	font-style: normal;
+	font-weight: normal;
+}
+
 h1 {
 	margin: 0;
 	text-align: center;
+	font-family: "SongTi TC", serif;
+}
+
+h2 {
+	margin: 0;
+	font-family: "KaiTi TC", serif;
 }
 
 p {
-	margin: 0;
-	
+	margin: 0;	
+}
+
+p.note {
+	font-size: 80%;
+}
+
+p.note2 {
+	margin-left: 2.5em;
+	text-indent: -2.5em;
+	font-size: 80%;
+
 }
 
 .byline {
 	text-align: right;
 }
 
+.left {
+	text-align: left;
+}
 
+a {
+	text-decoration: none;
+}
 
+.i001 {
+	height: 640px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	border: 1px black solid;
+
+}
+
+th {
+	font-weight: normal;
+}
+
+td,th {
+	margin: 0;
+	padding: 0.2em 0.3em;
+	text-align: center;
+	border: 1px black solid;
+
+}
+
+.char {
+	height: 1em;
+}
