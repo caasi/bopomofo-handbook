@@ -48,6 +48,15 @@ p.note2 {
 	text-align: left;
 }
 
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+	margin-right: 6em;
+}
+
 a {
 	text-decoration: none;
 }
@@ -77,7 +86,30 @@ td,th {
 	margin: 0;
 	padding: 0.2em 0.3em;
 	text-align: center;
+	vertical-align: top;
 	border: 1px black solid;
+}
+
+.em3 {
+	width: 3em;
+}
+
+.em14 {
+	width: 14em;
+}
+
+.p7 {
+	width: 280px;
+	margin-left: 5em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.p8 {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 
 }
 

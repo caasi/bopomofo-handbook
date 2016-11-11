@@ -27,10 +27,40 @@
     <item id="p004" href="004.xhtml" media-type="application/xhtml+xml"/>
     <item id="p005" href="005.xhtml" media-type="application/xhtml+xml"/>
     <item id="p006" href="006.xhtml" media-type="application/xhtml+xml"/>
-
+    <item id="p007" href="007.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p008" href="008.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p009" href="009.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p010" href="010.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p011" href="011.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p012" href="012.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p013" href="013.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p014" href="014.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p015" href="015.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p016" href="016.xhtml" media-type="application/xhtml+xml"/>
     <!--images-->
     <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
     <item id="i001" href="images/001.png" media-type="image/png"/>
+    <item id="i002" href="images/002.png" media-type="image/png"/>
+    <item id="i003" href="images/003.png" media-type="image/png"/>
+    <item id="i004" href="images/004.png" media-type="image/png"/>
+    <item id="i005" href="images/005.png" media-type="image/png"/>
+    <item id="i006" href="images/006.png" media-type="image/png"/>
+    <item id="i007" href="images/007.png" media-type="image/png"/>
+    <item id="i008" href="images/008.png" media-type="image/png"/>
+    <item id="i009" href="images/009.png" media-type="image/png"/>
+    <item id="i010" href="images/010.png" media-type="image/png"/>
+    <item id="i011" href="images/011.png" media-type="image/png"/>
+    <item id="i012" href="images/012.png" media-type="image/png"/>
+    <item id="i013" href="images/013.png" media-type="image/png"/>
+    <item id="i014" href="images/014.png" media-type="image/png"/>
+    <item id="i015" href="images/015.png" media-type="image/png"/>
+    <item id="i016" href="images/016.png" media-type="image/png"/>
+    <item id="i017" href="images/017.png" media-type="image/png"/>
+    <item id="i018" href="images/018.png" media-type="image/png"/>
+    <item id="i019" href="images/019.png" media-type="image/png"/>
+    <item id="i020" href="images/020.png" media-type="image/png"/>
+    <item id="i021" href="images/021.png" media-type="image/png"/>
+    <item id="i022" href="images/022.png" media-type="image/png"/>
     <item id="m01" href="images/01.png" media-type="image/png"/>
     <item id="m02" href="images/02.png" media-type="image/png"/>
     <item id="m02_1" href="images/02_1.png" media-type="image/png"/>
@@ -111,6 +141,11 @@
     <item id="m36_1" href="images/36_1.png" media-type="image/png"/>
     <item id="m37" href="images/37.png" media-type="image/png"/>
     <item id="m37_1" href="images/37_1.png" media-type="image/png"/>
+    <item id="m38" href="images/38.png" media-type="image/png"/>
+    <item id="m39" href="images/39.png" media-type="image/png"/>
+    <item id="m40" href="images/40.png" media-type="image/png"/>
+    <item id="m41" href="images/41.png" media-type="image/png"/>
+    <item id="m42" href="images/42.png" media-type="image/png"/>
 
 </manifest>  
 <spine page-progression-direction="ltr">
@@ -121,5 +156,15 @@
     <itemref idref="p004" properties="page-spread-right"/>
     <itemref idref="p005" properties="page-spread-left"/>
     <itemref idref="p006" properties="page-spread-right"/>
+    <itemref idref="p007" properties="page-spread-left"/>
+    <itemref idref="p008" properties="page-spread-right"/>
+    <itemref idref="p009" properties="page-spread-left"/>
+    <itemref idref="p010" properties="page-spread-right"/>
+    <itemref idref="p011" properties="page-spread-left"/>
+    <itemref idref="p012" properties="page-spread-right"/>
+    <itemref idref="p013" properties="page-spread-left"/>
+    <itemref idref="p014" properties="page-spread-right"/>
+    <itemref idref="p015" properties="page-spread-left"/>
+    <itemref idref="p016" properties="page-spread-right"/>
 </spine>
 </package>
