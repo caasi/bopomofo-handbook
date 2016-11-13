@@ -10,16 +10,23 @@
     <meta property="rendition:spread">auto</meta>
     <meta property="rendition:orientation">auto</meta>
 	<meta property="ibooks:specified-fonts">true</meta>
-	<dc:identifier id="bookid">9570273240</dc:identifier>
+	<dc:identifier id="bookid">urn:isbn:</dc:identifier>
 	<dc:contributor>WANDERER Digital Publishing</dc:contributor>
     <dc:language>zh-TW</dc:language>
     <meta name="cover" content="cover"/>
 </metadata>
 <manifest>
-    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	<!--font-->
+	<item id="bo00" href="font/bo00.ttf" media-type="font/ttf" />
+	<item id="bo01" href="font/bo01.ttf" media-type="font/ttf" />
+	<item id="bo02" href="font/bo02.ttf" media-type="font/ttf" />
+	<item id="bo03" href="font/bo03.ttf" media-type="font/ttf" />
+	<item id="kai" href="font/kai.ttf" media-type="font/ttf" />
+	<item id="song" href="font/song.ttf" media-type="font/ttf" />
     <!--CSS-->
     <item id="style" href="style.css" media-type="text/css" />
     <!--xhtmls-->
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="coverpage" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg" />
     <item id="p001" href="001.xhtml" media-type="application/xhtml+xml"/>
     <item id="p002" href="002.xhtml" media-type="application/xhtml+xml"/>
@@ -37,6 +44,24 @@
     <item id="p014" href="014.xhtml" media-type="application/xhtml+xml"/>
     <item id="p015" href="015.xhtml" media-type="application/xhtml+xml"/>
     <item id="p016" href="016.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p017" href="017.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p018" href="018.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p019" href="019.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p020" href="020.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p021" href="021.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p022" href="022.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p023" href="023.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p024" href="024.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p025" href="025.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p026" href="026.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p027" href="027.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p028" href="028.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p029" href="029.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p030" href="030.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p031" href="031.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p032" href="032.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p033" href="033.xhtml" media-type="application/xhtml+xml"/>
+
     <!--images-->
     <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
     <item id="i001" href="images/001.png" media-type="image/png"/>
@@ -61,6 +86,25 @@
     <item id="i020" href="images/020.png" media-type="image/png"/>
     <item id="i021" href="images/021.png" media-type="image/png"/>
     <item id="i022" href="images/022.png" media-type="image/png"/>
+    <item id="i023" href="images/023.png" media-type="image/png"/>
+    <item id="i024" href="images/024.png" media-type="image/png"/>
+    <item id="i025" href="images/025.png" media-type="image/png"/>
+    <item id="i026" href="images/026.png" media-type="image/png"/>
+    <item id="i027" href="images/027.png" media-type="image/png"/>
+    <item id="i028" href="images/028.png" media-type="image/png"/>
+    <item id="i029" href="images/029.png" media-type="image/png"/>
+    <item id="i030" href="images/030.png" media-type="image/png"/>
+    <item id="i031" href="images/031.png" media-type="image/png"/>
+    <item id="i032" href="images/032.png" media-type="image/png"/>
+    <item id="i033" href="images/033.png" media-type="image/png"/>
+    <item id="i034" href="images/034.png" media-type="image/png"/>
+    <item id="i035" href="images/035.png" media-type="image/png"/>
+    <item id="i036" href="images/036.png" media-type="image/png"/>
+    <item id="i037" href="images/037.png" media-type="image/png"/>
+    <item id="i038" href="images/038.png" media-type="image/png"/>
+    <item id="i039" href="images/039.png" media-type="image/png"/>
+    <item id="i040" href="images/040.png" media-type="image/png"/>
+    <item id="i041" href="images/041.png" media-type="image/png"/>
     <item id="m01" href="images/01.png" media-type="image/png"/>
     <item id="m02" href="images/02.png" media-type="image/png"/>
     <item id="m02_1" href="images/02_1.png" media-type="image/png"/>
@@ -84,7 +128,6 @@
     <item id="m11_1" href="images/11_1.png" media-type="image/png"/>
     <item id="m12" href="images/12.png" media-type="image/png"/>
     <item id="m12_1" href="images/12_1.png" media-type="image/png"/>
-
     <item id="m13" href="images/13.png" media-type="image/png"/>
     <item id="m14" href="images/14.png" media-type="image/png"/>
     <item id="m14_1" href="images/14_1.png" media-type="image/png"/>
@@ -146,6 +189,20 @@
     <item id="m40" href="images/40.png" media-type="image/png"/>
     <item id="m41" href="images/41.png" media-type="image/png"/>
     <item id="m42" href="images/42.png" media-type="image/png"/>
+    <item id="m43" href="images/43.png" media-type="image/png"/>
+    <item id="m44" href="images/44.png" media-type="image/png"/>
+    <item id="m45" href="images/45.png" media-type="image/png"/>
+    <item id="m46" href="images/46.png" media-type="image/png"/>
+    <item id="m47" href="images/47.png" media-type="image/png"/>
+    <item id="m48" href="images/48.png" media-type="image/png"/>
+    <item id="m49" href="images/49.png" media-type="image/png"/>
+    <item id="m50" href="images/50.png" media-type="image/png"/>
+    <item id="m51" href="images/51.png" media-type="image/png"/>
+    <item id="m52" href="images/52.png" media-type="image/png"/>
+    <item id="m53" href="images/53.png" media-type="image/png"/>
+    <item id="m54" href="images/54.png" media-type="image/png"/>
+    <item id="m55" href="images/55.png" media-type="image/png"/>
+    <item id="m56" href="images/56.png" media-type="image/png"/>
 
 </manifest>  
 <spine page-progression-direction="ltr">
@@ -166,5 +223,23 @@
     <itemref idref="p014" properties="page-spread-right"/>
     <itemref idref="p015" properties="page-spread-left"/>
     <itemref idref="p016" properties="page-spread-right"/>
+    <itemref idref="p017" properties="page-spread-right"/>
+    <itemref idref="p018" properties="page-spread-left"/>
+    <itemref idref="p019" properties="page-spread-right"/>
+    <itemref idref="p020" properties="page-spread-left"/>
+    <itemref idref="p021" properties="page-spread-right"/>
+    <itemref idref="p022" properties="page-spread-left"/>
+    <itemref idref="p023" properties="page-spread-right"/>
+    <itemref idref="p024" properties="page-spread-left"/>
+    <itemref idref="p025" properties="page-spread-right"/>
+    <itemref idref="p026" properties="page-spread-left"/>
+    <itemref idref="p027" properties="page-spread-right"/>
+    <itemref idref="p028" properties="page-spread-left"/>
+    <itemref idref="p029" properties="page-spread-right"/>
+    <itemref idref="p030" properties="page-spread-left"/>
+    <itemref idref="p031" properties="page-spread-right"/>
+    <itemref idref="p032" properties="page-spread-left"/>
+    <itemref idref="p033" properties="page-spread-right"/>
+
 </spine>
 </package>
