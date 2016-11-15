@@ -143,6 +143,7 @@ td,th {
 
 .char {
 	height: 1em;
+	vertical-align: middle;
 }
 
 @font-face {
