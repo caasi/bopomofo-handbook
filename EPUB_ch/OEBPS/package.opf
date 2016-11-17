@@ -33,7 +33,7 @@
     <item id="p002" href="002.xhtml" media-type="application/xhtml+xml"/>
     <item id="p003" href="003.xhtml" media-type="application/xhtml+xml"/>
     <item id="p004" href="004.xhtml" media-type="application/xhtml+xml"/>
-    <item id="p005" href="005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p005" href="005.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
     <item id="p006" href="006.xhtml" media-type="application/xhtml+xml"/>
     <item id="p007" href="007.xhtml" media-type="application/xhtml+xml"/>
     <item id="p008" href="008.xhtml" media-type="application/xhtml+xml"/>
@@ -204,6 +204,9 @@
     <item id="m54" href="images/54.png" media-type="image/png"/>
     <item id="m55" href="images/55.png" media-type="image/png"/>
     <item id="m56" href="images/56.png" media-type="image/png"/>
+
+    <!--scripts-->
+    <item id="react-zh-stroker" href="scripts/react-zh-stroker.js" media-type="application/javascript"/>
 
 </manifest>  
 <spine page-progression-direction="ltr">

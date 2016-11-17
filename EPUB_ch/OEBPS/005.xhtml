@@ -5,11 +5,13 @@
 		<meta name="viewport" content="width=768, height=1024, user-scalable=0" />
 		<title>國語注音符號手冊</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="./scripts/react-zh-stroker.js"></script>
 		<style>
 			.char {vertical-align: middle;}
 			</style>
 	</head>
 <body class="text">
+<div id="app"></div>
 
 <h2>二、聲符說明表</h2>
 
@@ -26,9 +28,21 @@
 
 <tbody>
 <tr>
-	<td><img src="images/01.png" class="char"/></td>
-	<td class="left"><img src="images/01.png" class="char"/></td>
-	<td>一　畫</td>
+	<td>
+		<a onclick="zhStroker('app', 'ㄅ'); return false;">
+			<img src="images/01.png" class="char"/>
+		</a>
+	</td>
+	<td class="left">
+		<a onclick="zhStroker('app', 'ㄅ'); return false;">
+			<img src="images/01.png" class="char"/>
+		</a>
+	</td>
+	<td>
+		<a href="#" onclick="zhStroker('app', 'ㄅ'); return false;">
+			一　畫
+		</a>
+	</td>
 	<td></td>
 </tr>
 <tr>
