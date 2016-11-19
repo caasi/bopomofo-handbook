@@ -18,12 +18,12 @@
 </metadata>
 <manifest>
 	<!--font-->
-	<item id="bo00" href="font/bo00.ttf" media-type="font/ttf" />
-	<item id="bo01" href="font/bo01.ttf" media-type="font/ttf" />
-	<item id="bo02" href="font/bo02.ttf" media-type="font/ttf" />
-	<item id="bo03" href="font/bo03.ttf" media-type="font/ttf" />
-	<item id="kai" href="font/kai.ttf" media-type="font/ttf" />
-	<item id="song" href="font/song.ttf" media-type="font/ttf" />
+	<item id="bo00" href="font/bo00.ttf" media-type="application/x-font-ttf" />
+	<item id="bo01" href="font/bo01.ttf" media-type="application/x-font-ttf" />
+	<item id="bo02" href="font/bo02.ttf" media-type="application/x-font-ttf" />
+	<item id="bo03" href="font/bo03.ttf" media-type="application/x-font-ttf" />
+	<item id="kai" href="font/kai.ttf" media-type="application/x-font-ttf" />
+	<item id="song" href="font/song.ttf" media-type="application/x-font-ttf" />
     <!--CSS-->
     <item id="style" href="style.css" media-type="text/css" />
     <!--xhtmls-->

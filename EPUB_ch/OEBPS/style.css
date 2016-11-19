@@ -146,6 +146,10 @@ td,th {
 	vertical-align: middle;
 }
 
+.blue {
+	color: blue;
+}
+
 @font-face {
 	font-family: kai;
 	src: url(font/kai.ttf) format('truetype');
