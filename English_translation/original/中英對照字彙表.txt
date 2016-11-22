@@ -1,0 +1,60 @@
+中英對照字彙表
+
+	
+1	國語注音符號第一式	First version of Chinese alphabet
+2	注音符號	Bopomofo
+3	國字旁注之注音符號印刷體式表	A Specimen of Bopomofo Printing Font next to Chinese Character
+4	銅模	Copper printing mold
+5	聲	Sound
+6	韻	Rhyme
+7	調	Tone
+8	雙聲疊韻	Alliteration and assonance
+9	注音輸入法	Phonetic typing system
+10	國字標準字體母稿	Published Version of Standard Chinese Font
+11	筆畫	Stroke number
+12	筆順	Writing sequence
+13	拼注方式	Position
+14	張孝裕	Chang, Hsiao-yu
+15	林國樑	Lin, Kuo-liang
+16	張文彬	Chang, Wen-pin
+17	曾榮汾	Tseng, Jung-fen
+18	胡建雄	Hu, Chien-hsiung
+19	蘇茂生	Su, Mao-sheng
+20	吳彥成	Wu, Yan-cheng
+21	國語注音符號手冊	Bopomofo Manual
+22	國語注音符號體式表	List of Bopomofo Alphabet
+23	國字注音比例參考圖	Ratio Reference between Chinese Character and Bopomofo
+24	國字注音示例	Specimen of Chinese Character with Bopomofo
+25	國語音節表注音示例	Reference Table of Chinese Character with Bopomofo Syllables
+26	國語推行委員會	Chinese Popularizing Committee
+27	楊永全	Yang, Yung-chuan
+28	楊尤雯	Yang, Yu-wen
+29	李鍌	Li, Hsien
+30	聲符	sound character
+31	韻符	rhyme character
+32	陰平調號	Dark tone
+33	開	kaikou (open mouth)
+34	齊	qichi (even teeth)
+35	合	hekou (closed mouth)
+36	撮	cuokou (round mouth)
+37	四呼	Four Hu
+38	聲符說明表	Explanatory table of sound characters
+39	韻符說明表	Explanatory table of rhyme characters
+40	調號說明表	Explanatory table of intonation level marks
+41	國字旁注之注音符號印刷體式表	Printing font List of Bopomofo next to Chinese Character
+42	捺	Press down
+43	鉤	hook
+44	挑	Rise
+45	點	Dot
+46	調名	Intonation Level
+47	陰平	Dark tone
+48	陽平	Light tone
+49	上聲	Rising tone
+50	去聲	Departing tone
+51	輕聲	Neutral tone
+52	空韻	Empty rhyme
+53	重編國語辭典修訂本	Reedited Version of Chinese Dictionary Revised Edition
+54	曹逢甫	Tsao, Feng-fu
+55	曾志朗	Tseng, Chih-lang
+56	精通打字印刷有限公司	Ching Tung Printing Co. Ltd
+
