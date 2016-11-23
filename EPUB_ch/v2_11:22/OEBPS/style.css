@@ -160,38 +160,13 @@ td,th {
 	src: url(font/song.ttf) format('truetype');
 }
 
-@font-face {
-	font-family: bopomofo00;
-	src: url(font/bo00.ttf) format('truetype');
-}
 
-@font-face {
-	font-family: bopomofo01;
-	src: url(font/bo01.ttf) format('truetype');
-}
 
-@font-face {
-	font-family: bopomofo02;
-	src: url(font/bo02.ttf) format('truetype');
-}
+.yellow {
+	  background-color: #fff47d;
 
-@font-face {
-	font-family: bopomofo03;
-	src: url(font/bo03.ttf) format('truetype');
-}
-
-.bopo01 {
-	font-family: bopomofo01;
-}
-
-.bopo02 {
-	font-family: bopomofo02;
-}
-
-.bopo03 {
-	font-family: bopomofo03;
 }
 
 .-epub-media-overlay-active {
-  background-color: #fff47d;
+  background-color: #fd9393;
 }

@@ -23,10 +23,7 @@
 </metadata>
 <manifest>
 	<!--font-->
-	<item id="bo00" href="font/bo00.ttf" media-type="application/x-font-ttf" />
-	<item id="bo01" href="font/bo01.ttf" media-type="application/x-font-ttf" />
-	<item id="bo02" href="font/bo02.ttf" media-type="application/x-font-ttf" />
-	<item id="bo03" href="font/bo03.ttf" media-type="application/x-font-ttf" />
+
 	<item id="kai" href="font/kai.ttf" media-type="application/x-font-ttf" />
 	<item id="song" href="font/song.ttf" media-type="application/x-font-ttf" />
     <!--CSS-->
@@ -111,6 +108,13 @@
     <item id="i039" href="images/039.png" media-type="image/png"/>
     <item id="i040" href="images/040.png" media-type="image/png"/>
     <item id="i041" href="images/041.png" media-type="image/png"/>
+    <item id="i042" href="images/042.png" media-type="image/png"/>
+    <item id="i043" href="images/043.png" media-type="image/png"/>
+    <item id="i044" href="images/044.png" media-type="image/png"/>
+    <item id="i045" href="images/045.png" media-type="image/png"/>
+    <item id="i046" href="images/046.png" media-type="image/png"/>
+    <item id="i047" href="images/047.png" media-type="image/png"/>
+    <item id="i048" href="images/048.png" media-type="image/png"/>
     <item id="m01" href="images/01.png" media-type="image/png"/>
     <item id="m02" href="images/02.png" media-type="image/png"/>
     <item id="m02_1" href="images/02_1.png" media-type="image/png"/>
