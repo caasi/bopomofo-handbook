@@ -5,7 +5,6 @@ html, body {
 
 body.text {
 	margin: 64px 64px;
-	width: 640px;
 	line-height: 1.8;
 	font-family: "times new roman",kai;
 }
@@ -26,9 +25,14 @@ h2 {
 	font-family: "times new roman",kai, serif;
 }
 
+.bodytext {
+	width: 640px;
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	margin: 0;
-	padding: 0 2em;	
 	text-align: justify;
 }
 
@@ -45,7 +49,6 @@ p.note2 {
 	margin-left: 2.5em;
 	text-indent: -2.5em;
 	font-size: 80%;
-
 }
 
 .byline {
