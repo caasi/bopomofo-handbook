@@ -193,6 +193,11 @@ td,th {
 	vertical-align: middle;
 }
 
+.char1 {
+	height: 1.1em;
+	vertical-align: middle;
+}
+
 .blue {
 	color: blue;
 }

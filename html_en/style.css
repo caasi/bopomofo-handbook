@@ -117,8 +117,17 @@ td,th {
 	line-height: 1.5;
 }
 
+.em1 {
+	margin-left: 1em;
+	text-indent: -1em;	
+}
+
 .em3 {
 	width: 3em;
+}
+
+.em4 {
+	width: 4em;
 }
 
 .em14 {
@@ -182,6 +191,11 @@ td,th {
 	vertical-align: middle;
 }
 
+.char1 {
+	height: 1.1em;
+	vertical-align: middle;
+}
+
 .blue {
 	color: blue;
 }
@@ -190,4 +204,16 @@ td,th {
 	background-color: rgba(211, 212, 255, 0.5);
 	cursor: pointer;
 	vertical-align: middle;
+}
+
+.yellow {
+	vertical-align: middle;
+}
+
+.mono {
+	font-family: monospace, Menlo, Courier;
+}
+
+.lm2 {
+	margin-left: 2em;
 }
