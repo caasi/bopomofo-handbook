@@ -206,3 +206,12 @@ td,th {
 				background-color: rgba(211, 212, 255, 0.5);
 				cursor: pointer;
 			}
+
+audio {
+	display: none;
+}
+
+.yellow {
+	  background-color: #fff47d;
+
+}

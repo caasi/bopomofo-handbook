@@ -217,3 +217,12 @@ td,th {
 .lm2 {
 	margin-left: 2em;
 }
+
+audio {
+	display: none;
+}
+
+.yellow {
+	  background-color: #fff47d;
+
+}
