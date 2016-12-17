@@ -40,6 +40,10 @@ div.bodytext2 {
 	
 }
 
+#app .overlay {
+  position: fixed;
+}
+
 h1, h2, h3 {
 	font-style: normal;
 	font-weight: normal;
