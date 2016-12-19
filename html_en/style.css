@@ -1,8 +1,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.3);
 	font-size: 100%;
+	background-color: gray;
 }
 
 div.page {
@@ -25,6 +25,12 @@ div.bodytext2 {
 
 #cover {
 	background-image: url(images/cover.png);
+	background-position: center center;
+	background-size: contain;
+}
+
+#backcover {
+	background-image: url(images/backcover.png);
 	background-position: center center;
 	background-size: contain;
 }

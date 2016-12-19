@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: gray;
 	font-size: 100%;
 }
 
@@ -37,7 +37,12 @@ div.bodytext2 {
 	background-image: url(images/cover.png);
 	background-position: center center;
 	background-size: contain;
-	
+}
+
+#backcover {
+	background-image: url(images/backcover.png);
+	background-position: center center;
+	background-size: contain;
 }
 
 #app .overlay {
