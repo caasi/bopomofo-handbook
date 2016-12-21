@@ -15,6 +15,16 @@ div.page {
 	background-color: white;
 }
 
+div.firstpage {
+	width: 768px;
+	height: 1024px;
+	margin: 0 auto;
+	line-height: 1.8;
+	font-family: "times new roman",kai;
+	border: 1px solid gray;
+	background-color: white;
+}
+
 div.bodytext {
 	margin: 64px;
 }
@@ -243,5 +253,11 @@ div.page {
 html, body {
 	background-color: white;
 	}
+div.firstpage {
+	size: 21cm 29.7cm;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
 	
 	}
