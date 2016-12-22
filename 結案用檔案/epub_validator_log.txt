@@ -1,0 +1,25 @@
+/Users/bobbytung/Documents/bopomofo-handbook/結案用檔案/國語注音符號手冊中文版.epub
+
+Validating using EPUB version 3.0.1 rules.
+(https://github.com/IDPF/epubcheck)
+
+December 22, 2016 5:22:07 PM CST
+
+
+---------------------------------------------------
+
+
+No errors or warnings detected. EPUB is valid!
+
+/Users/bobbytung/Documents/bopomofo-handbook/結案用檔案/國語注音符號手冊英文版.epub
+
+Validating using EPUB version 3.0.1 rules.
+(https://github.com/IDPF/epubcheck)
+
+December 22, 2016 5:22:30 PM CST
+
+
+---------------------------------------------------
+
+
+No errors or warnings detected. EPUB is valid!
