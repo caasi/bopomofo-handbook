@@ -1,0 +1,100 @@
+.cover {
+  text-align: center;
+  background-color: #f4e6d4;
+  padding-top: 275px;
+  padding-bottom: 275px;
+}
+
+.cover .cover__orgnization {
+  font-size: 3rem;
+}
+
+.cover .cover__title {
+  font-size: 9rem;
+  line-hegiht: 10rem;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #250000;
+}
+
+.cover .cover__subtitle {
+  font-size: 4rem;
+}
+
+section {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+section h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+section p,
+section dl {
+  font-size: 2rem;
+}
+
+section dl dt {
+  margin-bottom: 10px;
+}
+
+section dl dd {
+  margin-bottom: 20px;
+}
+
+.books {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.book .book__cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width is 585px when col-md-6 */
+  height: 390px;
+}
+
+.book .book__description {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.books .book__description h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.books .book__description a {
+  font-size: 2rem;
+}
+
+#zh.book .book__cover {
+  background-image: url(../img/cover-zh.png);
+}
+
+#en.book .book__cover {
+  background-image: url(../img/cover-en.png);
+}
+
+.q-and-a {
+  background-color: #333;
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  color: #fff;
+}
+
+.credits {
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #16161d;
+  color: #fff;
+  text-align: center;
+}
