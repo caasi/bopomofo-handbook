@@ -11,8 +11,8 @@
       <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-            <link href="reader/images/readium_favicon.png" rel="shortcut icon"/>
-            <link href="reader/images/readium-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="reader/images/readium_favicon.png" rel="shortcut icon"/>
+    <link href="reader/images/readium-touch-icon.png" rel="apple-touch-icon"/>
   </head>
 
   <body>
@@ -21,6 +21,9 @@
         <div class="cover__orgnization">教育部</div>
         <h1 class="cover__title">國語注音符號手冊</h1>
         <div class="cover__subtitle">Handbook of Bopomofo Symbols</div>
+        <div class="cover__subtitle">
+          <div id="counter"><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span></div>
+        </div>
       </div>
     </header>
 
@@ -33,9 +36,9 @@
             </div>
             <div class="col-md-3 col-sm-12 book__description">
               <h2>中文版</h2>
-              <a href="html_ch/index.html">中文HTML版</a><br/>
-              <a href="reader/?epub=./zh">中文EPUB線上閱讀</a><br/>
-              <a href="EPUB/zh.epub">中文EPUB下載</a>
+              <a id="zh-html" href="html_ch/index.html">中文HTML版</a><br/>
+              <a id="zh-reader" href="reader/?epub=./zh">中文EPUB線上閱讀</a><br/>
+              <a id="zh-download" href="epub/zh.epub">中文EPUB下載</a>
             </div>
           </div>
           <div id="en" class="book">
@@ -44,9 +47,9 @@
             </div>
             <div class="col-md-3 col-sm-12 book__description">
               <h2>English version</h2>
-              <a href="html_en/index.html">Read HTML online.</a><br/>
-              <a href="reader/?epub=./en">Read EPUB online.</a><br/>
-              <a href="EPUB/en.epub">Download EPUB.</a>
+              <a id="en-html" href="html_en/index.html">Read HTML online.</a><br/>
+              <a id="en-reader" href="reader/?epub=./en">Read EPUB online.</a><br/>
+              <a id="en-download" href="epub/en.epub">Download EPUB.</a>
             </div>
           </div>
         </div>
@@ -93,10 +96,23 @@
 
     <footer>
       <small>中華民國教育部 版權所有 &copy; 2016 Ministry of Education, R.O.C. All rights reserved.</small>
+      <small>
+        <ul>
+          <li>瀏覽：<span id="counter-index">N/A</span></li>
+          <li>中文HTML：<span id="counter-zh-html">N/A</span></li>
+          <li>中文EPUB：<span id="counter-zh-reader">N/A</span></li>
+          <li>中文下載：<span id="counter-zh-download">N/A</span></li>
+          <li>英文HTML：<span id="counter-en-html">N/A</span></li>
+          <li>英文EPUB：<span id="counter-en-reader">N/A</span></li>
+          <li>英文下載：<span id="counter-en-download">N/A</span></li>
+        </ul>
+      </small>
     </footer>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/superagent/3.3.1/superagent.min.js"></script>
     <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
 
