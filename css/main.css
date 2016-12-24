@@ -1,41 +1,40 @@
 .cover {
-  text-align: center;
   background-color: #f4e6d4;
-  padding-top: 275px;
-  padding-bottom: 275px;
-}
-
-.cover .cover__orgnization {
-  font-size: 3rem;
-}
-
-.cover .cover__title {
-  font-size: 9rem;
-  line-hegiht: 10rem;
-  font-weight: 700;
-  margin-top: 10px;
+  background-image: url(../img/background.gif);
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
   color: #250000;
 }
 
+.cover .cover__orgnization,
+.cover .cover__title,
 .cover .cover__subtitle {
-  font-size: 4rem;
+}
+
+.cover .cover__orgnization {
+  font-size: 2rem;
+}
+
+.cover .cover__title {
+  font-size: 3rem;
+  line-hegiht: 10rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.cover .cover__subtitle {
+  font-size: 2rem;
 }
 
 section {
-  padding-top: 125px;
-  padding-bottom: 125px;
-}
-
-section h2 {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-section p,
-section dl {
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 2rem;
+}
+
+section ul {
+  text-justify: justify;
 }
 
 section dl dt {
@@ -46,21 +45,45 @@ section dl dd {
   margin-bottom: 20px;
 }
 
-.books {
-  padding-top: 125px;
-  padding-bottom: 125px;
+@media (min-width: 992px) {
+  .cover .cover__orgnization {
+    font-size: 3rem;
+  }
+
+  .cover .cover__title {
+    font-size: 9rem;
+  }
+
+  .cover .cover__subtitel {
+    font-size: 4rem;
+  }
+
+  section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
 }
 
-.book .book__cover {
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* width is 585px when col-md-6 */
-  height: 390px;
+section h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+section p,
+section dl,
+.books {
+}
+
+.book .book__cover img {
+  width: 100%;
 }
 
 .book .book__description {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .books .book__description h2 {
@@ -74,6 +97,7 @@ section dl dd {
   font-size: 2rem;
 }
 
+/*
 #zh.book .book__cover {
   background-image: url(../img/cover-zh.png);
 }
@@ -81,6 +105,7 @@ section dl dd {
 #en.book .book__cover {
   background-image: url(../img/cover-en.png);
 }
+*/
 
 .q-and-a {
   background-color: #333;
