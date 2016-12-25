@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1" />
+    <title>國語注音符號手冊</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="reader/images/readium_favicon.png" rel="shortcut icon"/>
+    <link href="reader/images/readium-touch-icon.png" rel="apple-touch-icon"/>
+  </head>
+
+  <body>
+    <header class="cover">
+      <div class="container-fluid">
+        <div class="cover__orgnization">教育部</div>
+        <h1 class="cover__title">國語注音符號手冊</h1>
+        <div class="cover__subtitle">Handbook of Bopomofo Symbols</div>
+        <div class="cover__subtitle">
+          <div id="counter"><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="books">
+      <div class="container">
+        <div class="row">
+          <div id="zh" class="book">
+            <div class="col-md-3 col-sm-12 book__cover">
+              <img src="./img/cover-zh.png" />
+            </div>
+            <div class="col-md-3 col-sm-12 book__description">
+              <h2>中文版</h2>
+              <a id="zh-html" href="html_ch/index.html">中文HTML版</a><br/>
+              <a id="zh-reader" href="reader/?epub=./zh">中文EPUB線上閱讀</a><br/>
+              <a id="zh-download" href="epub/zh.epub">中文EPUB下載</a>
+            </div>
+          </div>
+          <div id="en" class="book">
+            <div class="col-md-3 col-sm-12 book__cover">
+              <img src="./img/cover-en.png" />
+            </div>
+            <div class="col-md-3 col-sm-12 book__description">
+              <h2>English version</h2>
+              <a id="en-html" href="html_en/index.html">Read HTML online.</a><br/>
+              <a id="en-reader" href="reader/?epub=./en">Read EPUB online.</a><br/>
+              <a id="en-download" href="epub/en.epub">Download EPUB.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="q-and-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>常見問題</h2>
+            <dl>
+              <dt>Q：閱讀本手冊的電腦與手機平板硬體需求？</dt>
+              <dd>A：本手冊支援Windows以及macOS和各種Linux，但建議透過支援新網頁技術的最新版<a href="https://www.google.com/chrome/" target="_blank">Google Chrome瀏覽器</a>開啟，以達最佳顯示效果。iOS及Android平板手機使用內建瀏覽器應可正常閱覽，推薦iOS 8.0以及Android 5.0以上。</dd>
+              <dt>Q：提供幾種閱讀方式，各有什麼分別？</dt>
+              <dd>A：本手冊提供「EPUB線上瀏覽」、「EPUB下載」以及「HTML版」三種閱讀方式。你可以透過EPUB線上瀏覽直接開啟電子書，或將EPUB下載到裝置上離線閱讀；EPUB下載後建議使用macOS以及iOS的iBooks程式閱讀，Android可使用<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.books&hl=zh_TW" target="_blank">Google Play Books</a>、<a href="https://play.google.com/store/apps/details?id=tw.com.bookwalker&hl=zh_TW" target="_blank">BookWalker</a>、<a href="https://play.google.com/store/apps/details?id=com.kobobooks.android.tw&hl=zh_TW" target="_blank">樂天Kobo</a>等對於EPUB 3固定版面格式支援較佳的閱讀程式，Windows與Linux系統則建議安裝Google Chrome的應用程式<a href="https://chrome.google.com/webstore/detail/readium/fepbnnnkkadjhjahcafoaglimekefifl?hl=zh-TW" target="_blank">Readium</a>閱讀。HTML版本則是供一般瀏覽器直接閱讀使用。</dd>
+              <dt>Q：本手冊有哪些特別功能？</dt>
+              <dd>A：於「壹、國語注音符號體式表」的聲符與韻符說明表格提供兩項功能。點選黃色底色格可朗讀注音符號讀音，藍底色格則會顯示筆順動畫。顯示筆順動畫時，點選外圍灰色處，即可關閉動畫。</dd>
+              <dt>Q：若要列印怎麼辦？是否提供PDF版本？</dt>
+              <dd>A：若您要列印或需要PDF版本，請以瀏覽器開啟「HTML版」，使用內建的列印功能即可印出或者轉存為PDF檔案，可關閉「標頭與註腳」來得到更好的列印效果。</dd>
+            </dl>
+            <h3>其他已知問題</h3>
+            <ul>
+              <li>以IE 11瀏覽器開啟HTML版時，注音符號讀音無法朗讀。</li>
+              <li>以Safari、Firefox等瀏覽器開啟線上閱讀版時，注音筆順動畫顯示效果不正確。</li>
+              <li>在部分版本較舊的Android裝置上以Google Play Books App開啟EPUB 3時，嵌入字體無法正常顯示。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="credits">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>自由軟體資訊</h2>
+            <p>EPUB以及HTML中使用<a href="http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=DFBE7BE3EE0DB6AE" target="_blank">教育部標準楷書</a>以及<a href="http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=161DEBC9EACEA333" target="_blank">教育部標準宋體</a>，將使用到的文字製作成子集（Subset）後轉換為網頁字型WOFF格式。兩字型皆使用<a href="https://creativecommons.org/licenses/by-nd/3.0/tw/" target="_blank">Creative Common BY-ND 3.0 TW授權</a>。</p>
+            <p>線上EPUB閱讀程式使用Readium基金會開發之<a href="https://github.com/readium/readium-js-viewer" target="_blank">Readium JS套件</a>建置，本套件使用<a href="https://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD-3-Clause</a>授權。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <small>中華民國教育部 版權所有 &copy; 2016 Ministry of Education, R.O.C. All rights reserved.</small>
+      <small>
+        <ul>
+          <li>瀏覽：<span id="counter-index">N/A</span></li>
+          <li>中文HTML：<span id="counter-zh-html">N/A</span></li>
+          <li>中文EPUB：<span id="counter-zh-reader">N/A</span></li>
+          <li>中文下載：<span id="counter-zh-download">N/A</span></li>
+          <li>英文HTML：<span id="counter-en-html">N/A</span></li>
+          <li>英文EPUB：<span id="counter-en-reader">N/A</span></li>
+          <li>英文下載：<span id="counter-en-download">N/A</span></li>
+        </ul>
+      </small>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/superagent/3.3.1/superagent.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
