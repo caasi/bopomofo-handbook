@@ -22,6 +22,9 @@ A：若您要列印或需要PDF版本，請以瀏覽器開啟「HTML版」，使
     /epub
     /html_ch
     /html_en
+    /css
+    /img
+    /js
     index.html
 
 若伺服器使用微軟iis服務，則可能需要額外追加以下檔案類型（mimetype）：
