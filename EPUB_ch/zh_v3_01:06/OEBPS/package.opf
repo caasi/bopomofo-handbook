@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="bookid" version="3.0">  
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
-	<dc:title>Handbook of Bopomofo Symbols</dc:title>
-	<dc:creator>Ministry of Education</dc:creator>
-	<dc:publisher>Ministry of Education</dc:publisher>
+<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/# cc: http://creativecommons.org/ns#" unique-identifier="bookid" version="3.0">  
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" >
+	<dc:title>國語注音符號手冊</dc:title>
+	<dc:creator>教育部</dc:creator>
+	<dc:publisher>教育部</dc:publisher>
 	<dc:date>2016-12-31T12:00:00Z</dc:date>
     <meta property="dcterms:modified">2016-12-31T12:00:00Z</meta>
     <meta property="rendition:layout">pre-paginated</meta>
@@ -11,32 +11,33 @@
     <meta property="rendition:orientation">auto</meta>
 	<meta property="ibooks:specified-fonts">true</meta>
 	<meta property="ibooks:binding">false</meta>
-	<dc:identifier id="bookid">urn:isbn:</dc:identifier>
+	<dc:identifier id="bookid">urn:isbn:9789860514810</dc:identifier>
 	<dc:contributor>WANDERER Digital Publishing</dc:contributor>
-    <dc:language>en</dc:language>
+    <dc:language>zh-TW</dc:language>
     <meta name="cover" content="cover"/>
+    <dc:rights>Creative Commons 姓名標示-禁止改作 3.0 台灣(CC BY-ND 3.0 TW)</dc:rights>
+    <link rel="cc:license" href="https://creativecommons.org/licenses/by-nd/3.0/tw/"/>
     <!--MEDIA OVERLAY METADATA-->
     <meta property="media:duration">0:00:30</meta>
     <meta property="media:duration" refines="#mo">0:00:30</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
-
 </metadata>
 <manifest>
+	<!--font-->
+	<item id="kaiw" href="font/kai.woff" media-type="application/font-woff" />
+	<item id="songw" href="font/song.woff" media-type="application/font-woff" />
     <!--CSS-->
     <item id="style" href="style.css" media-type="text/css" />
     <!--xhtmls-->
     <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="coverpage" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg" />
     <item id="backcover" href="backcover.xhtml" media-type="application/xhtml+xml" properties="svg" />
-    <item id="p000" href="000.xhtml" media-type="application/xhtml+xml"/>
     <item id="p001" href="001.xhtml" media-type="application/xhtml+xml"/>
     <item id="p002" href="002.xhtml" media-type="application/xhtml+xml"/>
     <item id="p003" href="003.xhtml" media-type="application/xhtml+xml"/>
     <item id="p004" href="004.xhtml" media-type="application/xhtml+xml"/>
     <item id="p005" href="005.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="mo"/>
-    <item id="p005_1" href="005_1.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="mo"/>
     <item id="p006" href="006.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="mo"/>
-    <item id="p006_1" href="006_1.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="mo"/>
     <item id="p007" href="007.xhtml" media-type="application/xhtml+xml"/>
     <item id="p008" href="008.xhtml" media-type="application/xhtml+xml"/>
     <item id="p009" href="009.xhtml" media-type="application/xhtml+xml"/>
@@ -217,25 +218,22 @@
 </manifest>  
 <spine page-progression-direction="ltr">
 	<itemref idref="coverpage" properties="page-spread-right"/>
-    <itemref idref="p000" properties="page-spread-left"/>
-    <itemref idref="p001" properties="page-spread-right"/>
-    <itemref idref="p002" properties="page-spread-left"/>
-    <itemref idref="p003" properties="page-spread-right"/>
-    <itemref idref="p004" properties="page-spread-left"/>
-    <itemref idref="p005" properties="page-spread-right"/>
-    <itemref idref="p005_1" properties="page-spread-left"/>
+    <itemref idref="p001" properties="page-spread-left"/>
+    <itemref idref="p002" properties="page-spread-right"/>
+    <itemref idref="p003" properties="page-spread-left"/>
+    <itemref idref="p004" properties="page-spread-right"/>
+    <itemref idref="p005" properties="page-spread-left"/>
     <itemref idref="p006" properties="page-spread-right"/>
-    <itemref idref="p006_1" properties="page-spread-left"/>
-    <itemref idref="p007" properties="page-spread-right"/>
-    <itemref idref="p008" properties="page-spread-left"/>
-    <itemref idref="p009" properties="page-spread-right"/>
-    <itemref idref="p010" properties="page-spread-left"/>
-    <itemref idref="p011" properties="page-spread-right"/>
-    <itemref idref="p012" properties="page-spread-left"/>
-    <itemref idref="p013" properties="page-spread-right"/>
-    <itemref idref="p014" properties="page-spread-left"/>
-    <itemref idref="p015" properties="page-spread-right"/>
-    <itemref idref="p016" properties="page-spread-left"/>
+    <itemref idref="p007" properties="page-spread-left"/>
+    <itemref idref="p008" properties="page-spread-right"/>
+    <itemref idref="p009" properties="page-spread-left"/>
+    <itemref idref="p010" properties="page-spread-right"/>
+    <itemref idref="p011" properties="page-spread-left"/>
+    <itemref idref="p012" properties="page-spread-right"/>
+    <itemref idref="p013" properties="page-spread-left"/>
+    <itemref idref="p014" properties="page-spread-right"/>
+    <itemref idref="p015" properties="page-spread-left"/>
+    <itemref idref="p016" properties="page-spread-right"/>
     <itemref idref="p017" properties="page-spread-right"/>
     <itemref idref="p018" properties="page-spread-left"/>
     <itemref idref="p019" properties="page-spread-right"/>
