@@ -6,6 +6,7 @@
   "scripts": {
     "build:svg": "./index.js ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ",
     "build:json": "./svgToJSON.js 02ca 02c7 02cb 02d9 00af",
+    "build:xml": "./jsonToXML.js 02ca 02c7 02cb 02d9 00af",
     "build": "npm run build:svg && npm run build:json"
   },
   "repository": {

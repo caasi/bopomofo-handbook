@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Word version="1.0" unicode="ˋ">
+  <Stroke>
+    <Outline>
+      <MoveTo x="751.65" y="584.83" />
+      <CubicTo flexible="false" x1="769.25" y1="595.99" x2="908.5" y2="751.93" x3="936.21" y3="784.16" />
+      <CubicTo flexible="false" x1="949.2" y1="799.28" x2="1146.59" y2="1037.46" x3="1154.34" y3="1045.62" />
+      <CubicTo flexible="false" x1="1162.14" y1="1053.83" x2="1448.44" y2="1403.17" x3="1456.86" y3="1414.22" />
+      <CubicTo flexible="false" x1="1475.58" y1="1438.77" x2="1466.42" y2="1472" x3="1445.63" y3="1478.04" />
+      <CubicTo flexible="false" x1="1422.67" y1="1484.7" x2="1411.44" y2="1476.38" x3="1197.57" y3="1266.29" />
+      <CubicTo flexible="false" x1="1133.42" y1="1203.28" x2="868.3" y2="974.35" x3="770.28" y3="899.46" />
+      <CubicTo flexible="false" x1="694.3" y1="841.41" x2="621.19" y2="798.89" x3="576.32" y3="770.36" />
+      <CubicTo flexible="false" x1="558.37" y1="758.95" x2="553.45" y2="737.56" x3="564.93" y3="723" />
+      <CubicTo flexible="false" x1="590.86" y1="690.13" x2="669.21" y2="617.26" x3="703.71" y3="592.1" />
+      <CubicTo flexible="false" x1="725.3" y1="576.36" x2="740.05" y2="577.48" x3="751.65" y3="584.83" />
+    </Outline>
+    <Track>
+      <MoveTo x="694.56" y="700.12" />
+      <MoveTo x="1432.24" y="1435.17" />
+    </Track>
+  </Stroke>
+</Word>
