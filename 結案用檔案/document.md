@@ -38,5 +38,7 @@ A：若您要列印或需要PDF版本，請以瀏覽器開啟「HTML版」，使
 
 - EPUB以及HTML中使用[教育部標準楷書](http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=DFBE7BE3EE0DB6AE)以及[教育部標準宋體](http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=161DEBC9EACEA333)，將使用到的文字製作成子集（Subset）後轉換為網頁字型WOFF格式。兩字型皆使用[Creative Common BY-ND 3.0 TW授權](https://creativecommons.org/licenses/by-nd/3.0/tw/)。
 - 線上EPUB閱讀程式使用Readium基金會開發之[Readium JS套件](https://github.com/readium/readium-js-viewer)建置，本套件使用[BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)授權。
+- 筆順 XML 檔案 3105.xml 至 3129.xml 來自[教育部常用國字標準字體筆順學習網](http://stroke-order.learningweb.moe.edu.tw/)，該網站資料採[Creative Common BY-NC-ND 3.0 TW授權](https://creativecommons.org/licenses/by-nc-nd/3.0/tw/)。
+- 筆順 XML 檔案 02ca.xml 、 02c7.xml 、 02cb.xml 、 00af.xml 、 02d9.xml 由本計畫產出。
 
 ## 授權方式
