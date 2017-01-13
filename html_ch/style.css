@@ -229,7 +229,10 @@ audio {
 
 .yellow {
 	  background-color: #fff47d;
+}
 
+.cc {
+	 width: 100px;
 }
 
 @media print {

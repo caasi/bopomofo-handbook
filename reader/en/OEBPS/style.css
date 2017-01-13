@@ -213,6 +213,15 @@ td,th {
   background-color: #fd9393;
 }
 
+.cc {
+	 width: 100px;
+}
+
+.smaller {
+	font-size: 80%;
+	line-height: 1.2;
+}
+
 .mono {
 	font-family: monospace, Menlo, Courier;
 }

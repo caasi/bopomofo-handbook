@@ -241,6 +241,15 @@ audio {
 	  background-color: #fff47d;
 }
 
+.cc {
+	 width: 100px;
+}
+
+.smaller {
+	font-size: 80%;
+	line-height: 1.2;
+}
+
 @media print {
 	
 div.page {

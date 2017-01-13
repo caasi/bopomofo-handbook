@@ -70,6 +70,7 @@
     <!--images-->
     <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
     <item id="backcover_img" href="images/backcover.png" media-type="image/png"/>
+    <item id="cc" href="images/cc.png" media-type="image/png"/>
     <item id="i001" href="images/001.png" media-type="image/png"/>
     <item id="i002" href="images/002.png" media-type="image/png"/>
     <item id="i003" href="images/003.png" media-type="image/png"/>
