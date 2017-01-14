@@ -1,49 +1,11 @@
+@font-face {
+  font-family: "title";
+  src: url(../font/title.ttf);
+}
+
 html,
 body {
   height: 100%;
-}
-
-.cover {
-  position: relative;
-  background-image: url(../img/cover-zh.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 95%;
-  text-align: center;
-  color: #250000;
-}
-
-.cover .cover__orgnization,
-.cover .cover__title,
-.cover .cover__subtitle {
-}
-
-.cover .cover__orgnization {
-  font-size: 2rem;
-}
-
-.cover .cover__title {
-  font-size: 3rem;
-  line-hegiht: 10rem;
-  font-weight: 700;
-  margin-top: 10px;
-}
-
-.cover .cover__subtitle {
-  font-size: 2rem;
-}
-
-#counter {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 20px;
-}
-
-#counter .cell {
-  background: #250000;
-  color: #f4e6d4;
-  padding: 0 4px;
 }
 
 section {
@@ -66,18 +28,6 @@ section dl dd {
 }
 
 @media (min-width: 992px) {
-  .cover .cover__orgnization {
-    font-size: 3rem;
-  }
-
-  .cover .cover__title {
-    font-size: 9rem;
-  }
-
-  .cover .cover__subtitel {
-    font-size: 4rem;
-  }
-
   section {
     padding-top: 125px;
     padding-bottom: 125px;
@@ -96,6 +46,26 @@ section dl,
 .books {
 }
 
+section.books {
+  background-image: url(../img/cover.png);
+  background-color: #f1e6c1;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+
+.books .books__title {
+  font-size: 8rem;
+  line-height: 8rem;
+  font-family: title;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.books .books__subtitle {
+  font-size: 2rem;
+}
+
 .book .book__cover img {
   width: 100%;
 }
@@ -111,10 +81,16 @@ section dl,
   margin-bottom: 10px;
   font-size: 3rem;
   font-weight: normal;
+  color: #fff;
 }
 
 .books .book__description a {
   font-size: 2rem;
+  color: #4cbaa2;
+}
+
+.book .book__cover img {
+  border: 2px solid #fff;
 }
 
 /*
