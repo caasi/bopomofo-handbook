@@ -1,9 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
 .cover {
   position: relative;
-  background-color: #f4e6d4;
-  background-image: url(../img/background.gif);
-  padding-top: 250px;
-  padding-bottom: 250px;
+  background-image: url(../img/cover-zh.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 95%;
   text-align: center;
   color: #250000;
 }
@@ -122,14 +127,47 @@ section dl,
 }
 */
 
-.q-and-a {
+.q-and-a,
+.license {
   background-color: #333;
   background-image: none;
   box-shadow: inset 0 0 100px rgba(0,0,0,.5);
   color: #fff;
 }
 
+.q-and-a {
+}
+
 .credits {
+}
+
+.license {
+}
+
+.license ol {
+  list-style: none;
+  margin: 0;
+}
+
+.license ol li {
+  position: relative;
+}
+
+.license ol li.first:before,
+.license ol li.second:before,
+.license ol li.third:before {
+  position: absolute;
+  display: block;
+  right: 100%;
+}
+.license ol li.first:before {
+  content: '一、';
+}
+.license ol li.second:before {
+  content: '二、';
+}
+.license ol li.third:before {
+  content: '三、';
 }
 
 footer {

@@ -29,14 +29,11 @@
   </head>
 
   <body>
-    <header class="cover">
-      <div class="container-fluid">
-        <div class="cover__orgnization">教育部</div>
-        <h1 class="cover__title">國語注音符號手冊</h1>
-        <div class="cover__subtitle">Handbook of Bopomofo Symbols</div>
-        <div class="cover__subtitle">
-          <div id="counter"><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span><span class="cell">0</span></div>
-        </div>
+    <header class="cover hidden-xs hidden-sm">
+      <div class="container">
+        <div class="cover__orgnization text-hide">教育部</div>
+        <h1 class="cover__title text-hide">國語注音符號手冊</h1>
+        <div class="cover__subtitle text-hide">Handbook of Bopomofo Symbols</div>
       </div>
     </header>
 
@@ -102,13 +99,31 @@
             <h2>自由軟體資訊</h2>
             <p>EPUB以及HTML中使用<a href="http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=DFBE7BE3EE0DB6AE" target="_blank">教育部標準楷書</a>以及<a href="http://depart.moe.edu.tw/ed2400/News_Content.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE&s=161DEBC9EACEA333" target="_blank">教育部標準宋體</a>，將使用到的文字製作成子集（Subset）後轉換為網頁字型WOFF格式。兩字型皆使用<a href="https://creativecommons.org/licenses/by-nd/3.0/tw/" target="_blank">Creative Common BY-ND 3.0 TW授權</a>。</p>
             <p>線上EPUB閱讀程式使用Readium基金會開發之<a href="https://github.com/readium/readium-js-viewer" target="_blank">Readium JS套件</a>建置，本套件使用<a href="https://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD-3-Clause</a>授權。</p>
+            <p>筆順 XML 檔案 3105.xml 至 3129.xml 來自<a href="http://stroke-order.learningweb.moe.edu.tw/" target="_blank">教育部常用國字標準字體筆順學習網</a>，該網站資料採<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/tw/" target="_blank">Creative Common BY-NC-ND 3.0 TW授權</a>。</p>
+            <p>筆順 XML 檔案 02ca.xml 、 02c7.xml 、 02cb.xml 、 00af.xml 、 02d9.xml 由本計畫產出。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="license">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>授權條款</h2>
+            <ol>
+              <li class="first">本手冊採用「創用CC 姓名標示 – 禁止改作 3.0 臺灣」授權條款釋出。</li>
+              <li class="second">本授權條款允許使用者重製、散布、傳輸著作（包括商業性利用），但不得修改本手冊，授權條款詳細內容請參見：
+                <br/><a href="https://creativecommons.org/licenses/by-nd/3.0/tw/" target="_blank">https://creativecommons.org/licenses/by-nd/3.0/tw/</a>。</li>
+              <li class="third">本手冊內含注音符號動畫XML、SVG檔，以及相關音檔，另採「創用CC 姓名標示 4.0 國際版本」授權條款提供，可獨立<a href="#" target="_blank">下載</a>，歡迎各界利用。利用此些檔案，視為符合政府資料開放授權條款之規定。</li>
+            </ol>
           </div>
         </div>
       </div>
     </section>
 
     <footer>
-      <small>中華民國教育部 版權所有 &copy; 2016 Ministry of Education, R.O.C. All rights reserved.</small>
+      <small>中華民國教育部 版權所有 &copy; 2017 Ministry of Education, R.O.C.(Taiwan) All rights reserved.</small>
       <small>
         <ul>
           <li>瀏覽：<span id="counter-index">N/A</span></li>

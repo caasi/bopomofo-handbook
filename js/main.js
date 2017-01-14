@@ -3,7 +3,6 @@ var url = 'http://linode.caasih.net:12549';
 // utils
 function render(state) {
   var count = padZeros(8, state.index.toString(10));
-  $counter.html(renderCells(count));
   $index.text(state.index);
   $zhHtml.text(state.zh.html);
   $zhReader.text(state.zh.reader);
@@ -25,15 +24,6 @@ function zeros(count) {
 
 function padZeros(width, str) {
   return zeros(width - str.length) + str;
-}
-
-function renderCells(str) {
-  var res = '';
-  var i;
-  for(i = 0; i < str.length; ++i) {
-    res += '<span class="cell">' + str[i] + '</span>'
-  }
-  return res;
 }
 
 function get() {
