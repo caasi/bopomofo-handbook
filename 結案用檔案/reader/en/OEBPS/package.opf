@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="bookid" version="3.0">  
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
-	<dc:title>Handbook of Bopomofo Symbols</dc:title>
+	<dc:title>The Manual of the Phonetic Symbols of Mandarin Chinese </dc:title>
 	<dc:creator>Ministry of Education</dc:creator>
 	<dc:publisher>Ministry of Education</dc:publisher>
 	<dc:date>2016-12-31T12:00:00Z</dc:date>
