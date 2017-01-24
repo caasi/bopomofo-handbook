@@ -11,7 +11,7 @@
     <meta property="rendition:orientation">auto</meta>
 	<meta property="ibooks:specified-fonts">true</meta>
 	<meta property="ibooks:binding">false</meta>
-	<dc:identifier id="bookid">urn:isbn:</dc:identifier>
+	<dc:identifier id="bookid">urn:isbn:9789860518696</dc:identifier>
 	<dc:contributor>WANDERER Digital Publishing</dc:contributor>
     <dc:language>en</dc:language>
     <meta name="cover" content="cover"/>
