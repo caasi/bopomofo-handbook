@@ -6,7 +6,7 @@ import punycode from 'punycode'
 import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { map, compose, replace, range } from 'ramda'
-import { computeLength } from 'react-zh-stroker/lib/data'
+import computeLength from 'react-zh-stroker/lib/data/computeLength'
 import PrintingWord from './PrintingWord'
 
 

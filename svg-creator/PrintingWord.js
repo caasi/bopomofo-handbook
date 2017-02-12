@@ -12,8 +12,8 @@ class PrintingWord extends Component {
     },
     x: 0,
     y: 0,
-    width: 2050,
-    height: 2050,
+    width: 2048,
+    height: 2048,
     color: 'black',
     progress: 0
   }
@@ -26,12 +26,12 @@ class PrintingWord extends Component {
       <svg
         width={width}
         height={height}
-        viewBox={`0 0 2050 2050`}
+        viewBox={`0 0 2048 2048`}
         version={1.1}
       >
         <g x={x} y={y}>{
           map(
-            (i) => <Stroke key={i} data={word[i]} color={color} />,
+            (i) => <Stroke key={i} data={word[i]} color={color} trackSize={400}/>,
             range(0, progress)
           )
         }</g>
