@@ -173,6 +173,10 @@ td,th {
 	color: blue;
 }
 
+.cc {
+	 width: 100px;
+}
+
 @font-face {
 	font-family: kai;
 	src: url(font/kai.woff) format('woff');

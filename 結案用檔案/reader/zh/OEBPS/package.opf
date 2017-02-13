@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="bookid" version="3.0">  
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
+<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ rendition: http://www.idpf.org/vocab/rendition/# cc: http://creativecommons.org/ns#" unique-identifier="bookid" version="3.0">  
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" >
 	<dc:title>國語注音符號手冊</dc:title>
 	<dc:creator>教育部</dc:creator>
 	<dc:publisher>教育部</dc:publisher>
@@ -15,11 +15,12 @@
 	<dc:contributor>WANDERER Digital Publishing</dc:contributor>
     <dc:language>zh-TW</dc:language>
     <meta name="cover" content="cover"/>
+    <dc:rights>Creative Commons 姓名標示-禁止改作 3.0 台灣(CC BY-ND 3.0 TW)</dc:rights>
+    <link rel="cc:license" href="https://creativecommons.org/licenses/by-nd/3.0/tw/"/>
     <!--MEDIA OVERLAY METADATA-->
     <meta property="media:duration">0:00:30</meta>
     <meta property="media:duration" refines="#mo">0:00:30</meta>
     <meta property="media:active-class">-epub-media-overlay-active</meta>
-
 </metadata>
 <manifest>
 	<!--font-->
@@ -69,6 +70,7 @@
     <!--images-->
     <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
     <item id="backcover_img" href="images/backcover.png" media-type="image/png"/>
+    <item id="cc" href="images/cc.png" media-type="image/png"/>
     <item id="i001" href="images/001.png" media-type="image/png"/>
     <item id="i002" href="images/002.png" media-type="image/png"/>
     <item id="i003" href="images/003.png" media-type="image/png"/>
