@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta name="viewport" content="width=768, height=1024, user-scalable=0" />
+		<title>The Manual of the Phonetic Symbols of Mandarin Chinese </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="./scripts/react-zh-stroker.js"></script>
+		<style>
+			.stroke {
+				background-color: rgba(211, 212, 255, 0.5);
+				cursor: pointer;
+			}
+		</style>
+	</head>
+<body class="text">
+<div id="app"></div>
+
+<h2>　</h2>
+
+<table>
+
+<thead>
+<tr>
+	<th>Bopomofo Note</th>
+	<th>Writing Sequence</th>
+	<th>Stroke Number</th>
+	<th>Description</th>
+</tr>
+</thead>
+
+<tbody id="t02">
+
+<tr>
+	<td class="yellow" id="s36">
+			<img src="images/36.png" class="char"/>
+	</td>
+	<td class="left stroke">
+		<a onclick="zhStroker('app', 'ㄨ'); return false;">
+			<img src="images/36_1.png" class="char"/><img src="images/36.png" class="char"/>
+		</a>
+	</td>
+	<td>
+		<a onclick="zhStroker('app', 'ㄨ'); return false;">
+			Two<br/>strokes
+		</a>
+	</td>
+	<td class="left">The second stroke should not be pressed down at the end.</td>
+</tr>
+<tr>
+	<td class="yellow" id="s37">
+			<img src="images/37.png" class="char"/>
+	</td>
+	<td class="left stroke">
+		<a onclick="zhStroker('app', 'ㄩ'); return false;">
+			<img src="images/37_1.png" class="char"/><img src="images/37.png" class="char"/>
+		</a>
+	</td>
+	<td>
+		<a onclick="zhStroker('app', 'ㄩ'); return false;">
+			Two<br/>strokes
+		</a>
+	</td>
+	<td></td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+</body>
+</html>
